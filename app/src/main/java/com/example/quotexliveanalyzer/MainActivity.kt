@@ -152,6 +152,8 @@ class MainActivity : Activity() {
     }
 
     class CandleChart(context: android.content.Context) : View(context) {
+        private val green = Color.rgb(0, 220, 120)
+        private val red = Color.rgb(255, 75, 85)
 
         private val paint = Paint(Paint.ANTI_ALIAS_FLAG)
 
